@@ -1,6 +1,6 @@
 FROM node
 
-RUN apt-get update && apt-get install -y lame libasound2-dev
+RUN apt-get update && apt-get install -y build-essential lame libasound2-dev
 
 # Create app directory
 RUN mkdir -p /usr/src/app
