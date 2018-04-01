@@ -1,6 +1,6 @@
 # nyan.sh
 
-An clone of [`parrot.live`](https://github.com/hugomd/parrot.live), powered by [`nyan`](https://github.com/kanatzidis/nyan), to allow any computer with `curl` to display an _animated_ party parrot.
+An clone of [`parrot.live`](https://github.com/hugomd/parrot.live), powered by [`nyan`](https://github.com/kanatzidis/nyan), to allow any computer with `curl` to display an _animated_ poptart cat.
 
 # Try it!
 ```bash
