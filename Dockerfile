@@ -1,7 +1,5 @@
 FROM node:7.9.0
 
-RUN apt-get update && apt-get install -y build-essential lame libasound2-dev
-
 # Create app directory
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app

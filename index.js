@@ -1,6 +1,6 @@
 const http = require('http');
 const {Readable} = require('readable-stream');
-const nyan = require('nyan')();
+const nyan = require('nyan-js');
 
 const server = http.createServer((req, res) => {
   if (req.headers && req.headers['user-agent'] && !req.headers['user-agent'].includes('curl')) {
@@ -12,6 +12,8 @@ const server = http.createServer((req, res) => {
   stream._destroy = function noop () {};
   stream.pipe(res);
   const interval = nyan.pipe({
+    colors: true,
+    pure: true,
     write: (data) => stream.push(data)
   });
 
