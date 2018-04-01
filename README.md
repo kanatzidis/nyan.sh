@@ -1,29 +1,13 @@
-# parrot.live
+# nyan.sh
 
-An initiative, using frames from [`terminal-parrot`](https://github.com/jmhobbs/terminal-parrot), to allow any computer with `curl` to display an _animated_ party parrot.
+A clone of [`parrot.live`](https://github.com/hugomd/parrot.live), powered by [`nyan`](https://github.com/kanatzidis/nyan), to allow any computer with `curl` to display an _animated_ poptart cat.
 
 # Try it!
 ```bash
-curl parrot.live
+curl nyan.sh
 ```
 
-# :partyparrot:
-<div align="center">
-  <img src='https://d.pr/i/jKluc0.gif' />
-</div>
-
 # Thanks
-* [jmhobbs](https://github.com/jmhobbs) for [`terminal-parrot`](https://github.com/jmhobbs/terminal-parrot), and for the animation frames
-* [Robert Koch](https://github.com/kochie/) and [Eric Jiang](https://github.com/lorderikir) for testing it, and giving feedback ⭐
+* [hugomd](https://github.com/hugomd) for [`parrot.live`](https://github.com/hugomd/parrot-live), and to those who made it possible.
+* [nyan](https://github.com/kanatzidis/nyan) was made possible by various open libraries and has its own credits.
 
-# More Parrots
-* [cultofthepartyparrot.com](http://cultofthepartyparrot.com/)
-* [`terminal-parrot`](https://github.com/jmhobbs/terminal-parrot)
-* [`parrotsay`](https://github.com/matheuss/parrotsay)
-
-# Sponsors
-A huge thank you to [Vultr](https://www.vultr.com/) for sponsoring this project with free bandwidth 📈🙇‍♂️
-
-<a href='https://www.vultr.com/'>
-	<img width='500' alt='Sponsored by Vultr' src='https://www.vultr.com/dist/img/brand/badge_onwhite.svg' />
-</a>
