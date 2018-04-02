@@ -11,11 +11,7 @@ const server = http.createServer((req, res) => {
   stream._read = function noop () {};
   stream._destroy = function noop () {};
   stream.pipe(res);
-  const interval = nyan.pipe({
-    colors: true,
-    pure: true,
-    write: (data) => stream.push(data)
-  });
+  const interval = nyan.pipe({ write: (data) => stream.push(data) });
 
   req.on('close', () => {
     stream.destroy();
